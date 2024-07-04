@@ -4,7 +4,10 @@ import LanguageItem from "./LanguageItem";
 export default function ProjectCard({ project }: { project: Project }) {
     return (
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-            <div
+
+            <a
+                href={project.repository}
+                target="_blank"
                 className="col-span-4 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-400 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
             >
                 <h2 className="mb-3 text-2xl font-semibold">
@@ -18,7 +21,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                         <LanguageItem key={index} language={language} />
                     ))}
                 </div>
-            </div>
+            </a>
         </div>
     )
 }
