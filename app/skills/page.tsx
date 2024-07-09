@@ -22,7 +22,6 @@ export default function Page() {
             "github",
             "gitlab",
             "nodejs",
-            "express",
             "nextjs",
             "vite",
             "vercel",
