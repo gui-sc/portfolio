@@ -1,9 +1,12 @@
 "use client"
-import { useEffect, useState } from "react";
-import TechSkillItem from "../components/TechSkillItm";
+import { useContext, useEffect, useState } from "react";
+import IconItem from "../components/IconItem";
 import SoftSkillItem from "../components/SoftSkillItem";
+import { LanguageContext } from "../components/Header";
+import { SkillsPageMessages } from "../messages/MessagesEnum";
 
 export default function Page() {
+    const {language} = useContext(LanguageContext)
     const [techSkills, setTechSkills] = useState<string[]>([]);
     const [softSkills, setSoftSkills] = useState<{ name: string, description: string }[]>([]);
 
@@ -31,53 +34,58 @@ export default function Page() {
     const fetchSoftSkills = () => {
         setSoftSkills([
             {
-                name: "Comunicação",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                name: SkillsPageMessages["communicationTitle"][language],
+                description: SkillsPageMessages["communicationDescription"][language]
             },
             {
-                name: "Trabalho em equipe",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                name: SkillsPageMessages["teamworkTitle"][language],
+                description: SkillsPageMessages["teamworkDescription"][language]
             },
             {
-                name: "Proatividade",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                name: SkillsPageMessages["proactivityTitle"][language],
+                description: SkillsPageMessages["proactivityDescription"][language]
             },
             {
-                name: "Resolução de problemas",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                name: SkillsPageMessages["problemSolvingTitle"][language],
+                description: SkillsPageMessages["problemSolvingDescription"][language]
             },
             {
-                name: "Empatia",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+                name: SkillsPageMessages["empathyTitle"][language],
+                description: SkillsPageMessages["empathyDescription"][language]
             }
         ])
     }
 
-    useEffect(() => {
+    const fetchSkills = () => {
         fetchTechSkills();
         fetchSoftSkills();
-    }, [])
+    }
+
+    useEffect(() => {
+        fetchSkills();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [language])
     return (
         <div className="w-full p-10 flex flex-col justify-center gap-5">
             <p className="text-center text-4xl font-bold font-mono">
-                Skills
+                {SkillsPageMessages["skills"][language]}
             </p>
             <div className="w-full mb-32 grid text-center gap-5 lg:grid-cols-2">
 
                 <div className="bg-white bg-opacity-30 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-zinc-400">
                     <h2 className="mb-3 text-2xl font-semibold">
-                        Tech Skills
+                        {SkillsPageMessages["techSkillsTitle"][language]}
                     </h2>
                     <div className="w-full px-2 flex flex-wrap justify-center gap-1 lg:px-10 lg:gap-3">
                         {techSkills.map((skill, index) => (
-                            <TechSkillItem key={index} name={skill} />
+                            <IconItem key={index} name={skill} size={90} />
                         ))}
                     </div>
 
                 </div>
                 <div className="bg-white bg-opacity-30 group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-zinc-400">
                     <h2 className="mb-3 text-2xl font-semibold">
-                        Soft Skills
+                        {SkillsPageMessages["softSkillsTitle"][language]}
                     </h2>
                     <div className="w-full px-10 flex flex-wrap justify-start gap-4">
                         {softSkills.map((skill, index) => (

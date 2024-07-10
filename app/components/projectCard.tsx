@@ -1,7 +1,10 @@
+import { useContext } from "react";
 import { Project } from "../types/types";
 import LanguageItem from "./LanguageItem";
+import { LanguageContext } from "./Header";
 
 export default function ProjectCard({ project }: { project: Project }) {
+    const {language} = useContext(LanguageContext);
     return (
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
             <a
@@ -14,7 +17,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                         {project.name}
                     </h2>
                     <p className="m-0 text-sm opacity-50 text-justify mb-3">
-                        {project.description}
+                        {project.description[language]}
                     </p>
                 </div>
                 <div className="flex gap-2 justify-end">
