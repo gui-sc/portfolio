@@ -1,10 +1,9 @@
-import { useContext } from "react";
 import { Company } from "../types/types";
-import { LanguageContext } from "./Header";
 import { ExperiencePageMessages } from "../messages/MessagesEnum";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function CompanyItem({ company, last }: { company: Company, last: boolean }) {
-    const {language} = useContext(LanguageContext);
+    const {language} = useLanguage();
     return (
         <div>
             <div className="flex flex-col max-w-[60ch] border rounded-lg border-solid p-2 border-gray-300 transition-colors hover:border-gray-400 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30">

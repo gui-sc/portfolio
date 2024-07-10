@@ -1,13 +1,13 @@
-import { useContext } from "react";
 import { Project } from "../types/types";
 import LanguageItem from "./LanguageItem";
-import { LanguageContext } from "./Header";
+import Link from "next/link";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function ProjectCard({ project }: { project: Project }) {
-    const {language} = useContext(LanguageContext);
+    const {language} = useLanguage();
     return (
         <div className="mb-32 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-4 lg:text-left">
-            <a
+            <Link
                 href={project.repository}
                 target="_blank"
                 className="col-span-4 group flex flex-col justify-between rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-400 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -25,7 +25,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                         <LanguageItem key={index} language={language} />
                     ))}
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }

@@ -1,12 +1,12 @@
 "use client"
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import IconItem from "../components/IconItem";
 import SoftSkillItem from "../components/SoftSkillItem";
-import { LanguageContext } from "../components/Header";
 import { SkillsPageMessages } from "../messages/MessagesEnum";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Page() {
-    const {language} = useContext(LanguageContext)
+    const {language} = useLanguage()
     const [techSkills, setTechSkills] = useState<string[]>([]);
     const [softSkills, setSoftSkills] = useState<{ name: string, description: string }[]>([]);
 

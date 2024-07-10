@@ -1,12 +1,12 @@
 "use client"
-import { useContext, useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { Company } from "../types/types"
 import CompanyItem from "../components/CompanyItem";
-import { LanguageContext } from "../components/Header";
 import { ExperiencePageMessages } from "../messages/MessagesEnum";
+import { useLanguage } from "../contexts/LanguageContext";
 
 export default function Page() {
-    const { language } = useContext(LanguageContext)
+    const { language } = useLanguage()
     const [companies, setCompanies] = useState<Company[]>([]);
     const [companiesToShow, setCompaniesToShow] = useState<Company[]>([]);
     const [showMore, setShowMore] = useState<boolean>(false);

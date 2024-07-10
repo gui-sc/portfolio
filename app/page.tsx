@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import { LanguageContext } from "./components/Header";
-import { useContext } from "react";
 import { MainPageMessages } from "./messages/MessagesEnum";
+import { useLanguage } from "./contexts/LanguageContext";
+import Link from "next/link";
 
 export default function Home() {
-  const { language } = useContext(LanguageContext)
+  const { language } = useLanguage()
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 gap-5">
 
@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className="mb-16 grid text-center lg:mb-0 lg:w-full lg:max-w-5xl lg:grid-cols-3 lg:text-left">
 
-        <a
+        <Link
           href="/projects"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -48,9 +48,9 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             {MainPageMessages["projectsDescription"][language]}
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/skills"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -61,9 +61,9 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-sm opacity-50">
             {MainPageMessages["skillsDescription"][language]}
           </p>
-        </a>
+        </Link>
 
-        <a
+        <Link
           href="/experience"
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
           rel="noopener noreferrer"
@@ -74,7 +74,7 @@ export default function Home() {
           <p className="m-0 max-w-[30ch] text-balance text-sm opacity-50">
             {MainPageMessages["experienceDescription"][language]}
           </p>
-        </a>
+        </Link>
       </div>
     </main>
   );
