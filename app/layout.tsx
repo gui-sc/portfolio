@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import { LanguageProvider } from "./contexts/LanguageContext";
 
@@ -23,7 +22,6 @@ export default function RootLayout({
         <LanguageProvider>
           <Header />
           {children}
-          <Footer />
         </LanguageProvider>
       </body>
     </html>
