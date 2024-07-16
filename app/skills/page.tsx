@@ -48,10 +48,6 @@ export default function Page() {
             {
                 name: SkillsPageMessages["problemSolvingTitle"][language],
                 description: SkillsPageMessages["problemSolvingDescription"][language]
-            },
-            {
-                name: SkillsPageMessages["empathyTitle"][language],
-                description: SkillsPageMessages["empathyDescription"][language]
             }
         ])
     }

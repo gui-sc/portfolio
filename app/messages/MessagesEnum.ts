@@ -80,40 +80,32 @@ export const SkillsPageMessages = {
         pt: "Comunicação"
     },
     communicationDescription:{
-        en: "I have good communication skills, I can express myself clearly and objectively, I can also listen and understand the interlocutor.",
-        pt: "Tenho boas habilidades de comunicação, consigo me expressar de forma clara e objetiva, também sei ouvir e entender o interlocutor."
+        en: "I have good communication skills, I can express myself clearly and objectively, I can also listen and understand what other people may have to talk to me.",
+        pt: "Tenho boas habilidades de comunicação, consigo me expressar de forma clara e objetiva, também sei ouvir e entender o que as outras pessoas possam ter para me passar."
     },
     teamworkTitle:{
         en: "Teamwork",
         pt: "Trabalho em Equipe"
     },
     teamworkDescription:{
-        en: "I have experience working in teams, I can lead a team or work as a team member, I can also work alone.",
-        pt: "Tenho experiência em trabalhar em equipes, consigo liderar um time ou trabalhar como membro de um time, também sei trabalhar sozinho."
+        en: "I have experience working in teams, I can lead a team without it seeming authoritarian, and I can also work as a team member, respecting my superiors and collaborating in the best way. I can also work alone, no problem.",
+        pt: "Tenho experiência em trabalhar em equipes, consigo liderar um time, sem que pareça algo autoritário, e também posso trabalhar como membro de um time, respeitando meus superiores e colaborando da melhor forma. Também posso trabalhar sozinho, sem problemas."
     },
     problemSolvingTitle:{
         en: "Problem Solving",
         pt: "Resolução de Problemas"
     },
     problemSolvingDescription:{
-        en: "I have good problem solving skills, I can identify, analyze and solve problems.",
-        pt: "Tenho boas habilidades de resolução de problemas, consigo identificar, analisar e resolver problemas."
+        en: "I have good problem solving skills, I can identify, analyze and solve problems. I always try to find the best solution, with different and innovative tools, always trying to meet the stipulated deadline.",
+        pt: "Tenho boas habilidades de resolução de problemas, consigo identificar, analisar e resolver problemas. Busco sempre procurar a melhor solução, com ferramentas diferentes e inovadoras, sempre tentando manter o prazo estipulado."
     },
     proactivityTitle:{
         en: "Proactivity",
         pt: "Proatividade"
     },
     proactivityDescription:{
-        en: "I am proactive, I can anticipate problems and solve them before they happen.",
-        pt: "Sou proativo, consigo antecipar problemas e resolvê-los antes que aconteçam."
-    },
-    empathyTitle:{
-        en: "Empathy",
-        pt: "Empatia"
-    },
-    empathyDescription:{
-        en: "I have empathy, I can put myself in the other's shoes and understand their feelings.",
-        pt: "Tenho empatia, consigo me colocar no lugar do outro e entender seus sentimentos."
+        en: "I am proactive, I can anticipate problems and solve them before they happen. I have a broad view of the context and can prevent problems that may occur or have already occurred in other projects.",
+        pt: "Sou proativo, consigo antecipar problemas e resolvê-los antes que aconteçam. Tenho uma visão ampla do contexto e posso previnir problemas que possam ocorrer ou já ocorreram em outros projetos."
     },
 }
 
