@@ -12,14 +12,13 @@ export const MainPageMessages = {
            was 15 years old, when I took a high school integrated with a technical course in informatics, 
            where I stayed for three years until I graduated. To pass the course, I developed mobile software in 
            Java with a database connection to Google Firebase, which was completely new to me. 
-           Today I work as a developer at Regulatório Mais, 
-           I work as technical leader of the development team, where I work with technologies such as React, 
+           Today I work as a developer at Regulatório Mais, where I work with technologies such as React, 
            Typescript, Express, using AWS Cloud for deployment. Here you will see some of my biggest and latest projects,
           Hope you like!`,
         pt: `Tenho 21 anos e nasci em Sombrio/SC. Comecei na área de desenvolvimento quando tinha 15 anos,
             quando cursei o ensino médio integrado com curso técnico em informática, onde fiquei por três anos até me formar.
             Para passar no curso, desenvolvi software mobile em Java com conexão a banco de dados no Google Firebase, que era completamente novo para mim.
-            Hoje trabalho como desenvolvedor na Regulatório Mais, atuo como líder técnico do time de desenvolvimento, onde trabalho com tecnologias como React,
+            Hoje trabalho como desenvolvedor na Regulatório Mais, onde trabalho com tecnologias como React,
             Typescript, Express, utilizando AWS Cloud para deploy. Aqui você verá alguns dos meus maiores e mais recentes projetos,
             Espero que goste!`
     },
