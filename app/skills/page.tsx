@@ -83,7 +83,7 @@ export default function Page() {
                     <h2 className="mb-3 text-2xl font-semibold">
                         {SkillsPageMessages["softSkillsTitle"][language]}
                     </h2>
-                    <div className="w-full px-10 flex flex-wrap justify-start gap-4">
+                    <div className="w-full px-2 lg:px-10 flex flex-wrap justify-start gap-4">
                         {softSkills.map((skill, index) => (
                             <SoftSkillItem key={index} name={skill.name} description={skill.description} />
                         ))}
