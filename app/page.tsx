@@ -13,7 +13,7 @@ export default function Home() {
     },
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/guilherme-coelho-72136520a/",
+      url: "https://www.linkedin.com/in/guilherme-silveira-dev/",
     },
     {
       name: "email",
