@@ -10,8 +10,6 @@ export const LanguageContext = createContext<{
     setLanguageEn: () => {}
 });
 
-
-// eslint-disable-next-line no-unused-vars
 export function LanguageProvider({ children }: { children: React.ReactNode }) {
     const [language, setLanguage] = useState<'en' | 'pt'>("en");
 

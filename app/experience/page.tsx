@@ -15,8 +15,8 @@ export default function Page() {
             {
                 name: "Regulatório Mais",
                 role: {
-                    pt: "Desenvolvedor de Software, Tech Lead",
-                    en: "Software Developer, Tech Lead"
+                    pt: "Desenvolvedor de Software",
+                    en: "Software Developer"
                 },
                 startDate: {
                     pt: "01/10/2023",

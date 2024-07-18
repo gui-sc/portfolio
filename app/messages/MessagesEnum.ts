@@ -1,25 +1,28 @@
 export const MainPageMessages = {
     hello: {
         en: "Hello, I'm Guilherme, nice to see you!",
-        pt: "Olá, eu sou Guilherme, prazer em te ver!"
+        pt: "Olá, eu sou o Guilherme, prazer em te ver!"
     },
     presentationTitle:{
         en: "Presentation",
         pt: "Apresentação"
     },
     presentationText:{
-        en: `I'm 21 years old and I was born in Sombrio/SC. I started in the developer area when 
-           was 15 years old, when I took a high school integrated with a technical course in informatics, 
-           where I stayed for three years until I graduated. To pass the course, I developed mobile software in 
-           Java with a database connection to Google Firebase, which was completely new to me. 
-           Today I work as a developer at Regulatório Mais, where I work with technologies such as React, 
-           Typescript, Express, using AWS Cloud for deployment. Here you will see some of my biggest and latest projects,
-          Hope you like!`,
-        pt: `Tenho 21 anos e nasci em Sombrio/SC. Comecei na área de desenvolvimento quando tinha 15 anos,
+        en: `I am 21 years old and was born in Sombrio/SC. I started in the programming area when I was 15, 
+        during my high school years which were integrated with a technical course in IT, where I studied for 
+        three years until I graduated. To complete the course, I developed a mobile software in Java with a 
+        database connection to Google Firebase, which was completely new to me. It was also my first 
+        experience learning a new language and studying the documentation. After graduating, I enrolled 
+        in the Computer Science college at UNESC, where I am currently in the 6th semester. Today, 
+        I work as a developer at Regulatório Mais, where I work with technologies such as React, TypeScript, 
+        Express, AWS Cloud, Lambda, Microservices, DynamoDB, and PostgreSQL. Here, you will see some of 
+        my biggest and latest projects. I hope you enjoy them!`,
+        pt: `Tenho 21 anos e nasci em Sombrio/SC. Comecei na área da programação quando tinha 15 anos,
             quando cursei o ensino médio integrado com curso técnico em informática, onde fiquei por três anos até me formar.
-            Para passar no curso, desenvolvi software mobile em Java com conexão a banco de dados no Google Firebase, que era completamente novo para mim.
+            Para passar no curso, desenvolvi um software mobile em Java com conexão a banco de dados no Google Firebase, que era algo completamente novo para mim, 
+            foi também minha primeira experiência aprendendo uma nova linguagem e estudando a documentação. Após me formar, entrei na faculdade de Ciência da Computação na UNESC, onde estou atualmente no 6º semestre.
             Hoje trabalho como desenvolvedor na Regulatório Mais, onde trabalho com tecnologias como React,
-            Typescript, Express, utilizando AWS Cloud para deploy. Aqui você verá alguns dos meus maiores e mais recentes projetos,
+            Typescript, Express, AWS Cloud, Lambda, Microsserviços, DynamoDB e PostgreSQL. Aqui você verá alguns dos meus maiores e mais recentes projetos,
             Espero que goste!`
     },
     projects:{
@@ -35,7 +38,7 @@ export const MainPageMessages = {
         pt: "Habilidades"
     },
     skillsDescription:{
-        en: "Let me introduce you to my soft and tech skills",
+        en: "Let me introduce you to my tech and soft skills",
         pt: "Confira minhas habilidades técnicas e comportamentais"
     },
     experience:{
@@ -79,24 +82,24 @@ export const SkillsPageMessages = {
         pt: "Comunicação"
     },
     communicationDescription:{
-        en: "I have good communication skills, I can express myself clearly and objectively, I can also listen and understand what other people may have to talk to me.",
-        pt: "Tenho boas habilidades de comunicação, consigo me expressar de forma clara e objetiva, também sei ouvir e entender o que as outras pessoas possam ter para me passar."
+        en: "I have an ease in communicating with my team and my superiors. I believe that good communication, not only technical but also interpersonal, is essential for the successful progress of a project. It is important to know the people you work with and to have something close to a friendship.",
+        pt: "Tenho facilidade para me comunicar com meu time e meus superiores, acredito que uma boa comunicação, não só técnica, mas também interpessoal, é essencial para o bom andamento de um projeto. Conhecer com quem você trabalha e ter algo próximo de uma amizade."
     },
     teamworkTitle:{
         en: "Teamwork",
         pt: "Trabalho em Equipe"
     },
     teamworkDescription:{
-        en: "I have experience working in teams, I can lead a team without it seeming authoritarian, and I can also work as a team member, respecting my superiors and collaborating in the best way. I can also work alone, no problem.",
-        pt: "Tenho experiência em trabalhar em equipes, consigo liderar um time, sem que pareça algo autoritário, e também posso trabalhar como membro de um time, respeitando meus superiores e colaborando da melhor forma. Também posso trabalhar sozinho, sem problemas."
+        en: "I have experience working in teams and am continually learning how to lead a team without making anyone feel disrespected or undervalued. I also know how to work as a team member, respecting my superiors and collaborating effectively with the rest of the team.",
+        pt: "Tenho experiência em trabalhar em equipes, estou aprendendo cada vez mais a como liderar uma equipe, sem que ninguém se sinta desrespeitado ou subvalorizado, e também sei trabalhar como membro de uma equipe, respeitando meus superiores e colaborando da melhor forma com o resto da equipe."
     },
     problemSolvingTitle:{
         en: "Problem Solving",
         pt: "Resolução de Problemas"
     },
     problemSolvingDescription:{
-        en: "I have good problem solving skills, I can identify, analyze and solve problems. I always try to find the best solution, with different and innovative tools, always trying to meet the stipulated deadline.",
-        pt: "Tenho boas habilidades de resolução de problemas, consigo identificar, analisar e resolver problemas. Busco sempre procurar a melhor solução, com ferramentas diferentes e inovadoras, sempre tentando manter o prazo estipulado."
+        en: "I consider my problem-solving logic a great asset, as I can usually identify and solve problems with relative ease. This is something I have enjoyed and treated as a hobby since childhood, with math and logic problems. I always strive to find the best solution and communicate it to the rest of the team.",
+        pt: "Considero minha lógica para solução de problemas uma grande aliada, normalmente consigo identificar e solucionar problemas com certa facilidade, é algo que gosto e levo como hobby desde criança, com problemas de matemática e lógica. Sempre tento encontrar a melhor solução e comunicar o resto da equipe."
     },
     proactivityTitle:{
         en: "Proactivity",

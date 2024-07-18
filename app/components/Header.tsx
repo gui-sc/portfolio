@@ -27,7 +27,6 @@ export default function Header() {
                             if (option.lang === "pt") setLanguagePt()
                         }
                     }>
-                        {/* adicionar check */}
                         {option.lang === language ? 
                         <Image
                             alt="check icon"

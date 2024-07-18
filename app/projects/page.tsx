@@ -12,12 +12,11 @@ export default function Page() {
                 name: "Portfolio",
                 description: {
                     pt: `Este é o meu portfólio, onde eu mostro os meus projetos e habilidades. Foi meu primeiro projeto 
-                que foi publicado em um domínio na internet, apesar de ser um projeto simples, foi muito importante para mim,
-                pois é o marco inicial da minha transição como dev. Pretendo manter ele sempre atualizado e melhorar ele sempre
+                que foi publicado em um domínio na internet. Este projeto me trouxe novos conhecimentos sobre NextJs e Front-End, 
+                algo que sempre tive dificuldade ao longo da carreira. Pretendo manter ele sempre atualizado e melhorar ele sempre
                 que possível.
                 `,
-                    en: `This is my portfolio, where I show my projects and skills. It was my first project that was published on a domain on the internet,
-                although it is a simple project, it was very important to me, as it is the initial mark of my transition as a dev. I intend to keep it always updated and improve it whenever possible.`
+                    en: `This is my portfolio, where I showcase my projects and skills. It was my first project published on an internet domain. This project brought me new knowledge about Next.js and Front-End development, something I have always found challenging throughout my career. I intend to keep it updated and improve it whenever possible.`
                 },
                 repository: "https://github.com/gui-sc/portfolio",
                 languages: ["TypeScript", "React", "TailwindCSS"]
