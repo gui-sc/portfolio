@@ -27,10 +27,13 @@ export default function Page() {
                     pt: `Este é um projeto em andamento, onde estou desenvolvendo um web app para salões de beleza e barbearias. 
                     O objetivo desse projeto é ser um projeto white label, em que qualquer cliente possa customizar o app de acordo
                     com a sua logo, cores e serviços. O projeto tem uma stack completa, com um back-end em NodeJs, um front-end em React
-                    e banco de dados em MongoDB.`,
+                    e banco de dados em MongoDB. Atualmente finalizei a parte de funções básicas do back-end, para inserção, atualização, 
+                    leitura e remoção dos dados, irei agora seguir com a implementação de autenticação e autorização.`,
                     en: `This is a work in progress project, where I'm developing a web app for beauty salons and barbershops.
                     This project's goal is to be a white label app, where any client can customize the app with their logo, colors palette
-                    and services. The project has a full stack, with a NodeJs back-end, a React front-end and a MongoDB database.`
+                    and services. The project has a full stack, with a NodeJs back-end, a React front-end and a MongoDB database.
+                    I've finished the basic functions of the back-end, for CRUD operations, and now I'll move on to the implementation
+                    of authentication and authorization.`
                 },
                 repository: "htpps://github.com/gui-sc/salonApp-api",
                 languages: ["TypeScript", "React", "NodeJs", "MongoDB"]
