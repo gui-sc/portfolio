@@ -10,7 +10,7 @@ export default function Header() {
     }[] = [
         {
             lang: "en",
-            flag: "uk"
+            flag: "us"
         },
         {
             lang: "pt",
