@@ -5,7 +5,7 @@ import ProjectCard from "../components/projectCard"
 
 export default function Page() {
     const [projects, setProjects] = useState<Project[]>([])
-
+    const GITHUB_URL = "https://github.com/gui-sc"
     const fetchProjects = () => {
         setProjects([
             {
@@ -18,8 +18,21 @@ export default function Page() {
                 `,
                     en: `This is my portfolio, where I showcase my projects and skills. It was my first project published on an internet domain. This project brought me new knowledge about Next.js and Front-End development, something I have always found challenging throughout my career. I intend to keep it updated and improve it whenever possible.`
                 },
-                repository: "https://github.com/gui-sc/portfolio",
+                repository: `${GITHUB_URL}/portfolio`,
                 languages: ["TypeScript", "React", "TailwindCSS"]
+            },
+            {
+                name: "API Troco",
+                description: {
+                    pt: `Este projeto foi feito durante uma aula, com o intuito de testar os conhecimentos em NodeJs, Express e também com funções recursivas. Ele utiliza
+                    da prática de função recursiva para calcular com mais eficiência a quantidade de notas e moedas necessárias para o troco. Recebe dois valores: o valor total da conta
+                    e o valor que foi pago ao caixa, e retorna um objeto indicando quais notas e moedas devem ser devolvidas ao cliente. Os valores retornados são em reais. Por fim, foi implementado um Swagger para documentar a API.`,
+                    en: `This project was made during a class, with the purpose of testing the knowledge in NodeJs, Express and also with recursive functions. It uses recursive function to calculate
+                     more efficiently the amount of notes and coins needed for the change. It receives two values: the total bill amount and the 
+                     amount paid to the cashier, and returns an object indicating which notes and coins should be returned to the customer. The values returned are in BRL. Finally, a Swagger was implemented to document the API.`
+                },
+                repository: `${GITHUB_URL}/api-troco`,
+                languages: ["JavaScript", "NodeJs", "Express", "Swagger"]
             },
             {
                 name: "Salon App (WIP)",
@@ -35,7 +48,7 @@ export default function Page() {
                     I've finished the basic functions of the back-end, for CRUD operations, and now I'll move on to the implementation
                     of authentication and authorization.`
                 },
-                repository: "htpps://github.com/gui-sc/salonApp-api",
+                repository: `${GITHUB_URL}/salonApp-api`,
                 languages: ["TypeScript", "React", "NodeJs", "MongoDB"]
             }
         ])
