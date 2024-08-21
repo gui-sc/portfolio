@@ -24,7 +24,7 @@ export default function Home() {
     <main className="flex min-h-screen p-12 flex-col items-center justify-between lg:p-24 gap-3">
 
       <Image
-        src="/profile.png"
+        src="/profile.jpg"
         alt="Profile Picture"
         className="rounded-full"
         width={150}
