@@ -2,6 +2,7 @@ export type Project = {
     name: string,
     description: { en: string, pt: string },
     repository: string,
+    preview?: string,
     languages: string[],
 }
 

@@ -18,8 +18,9 @@ export default function Page() {
                 `,
                     en: `This is my portfolio, where I showcase my projects and skills. It was my first project published on an internet domain. This project brought me new knowledge about Next.js and Front-End development, something I have always found challenging throughout my career. I intend to keep it updated and improve it whenever possible.`
                 },
+                preview: "https://guilhermesilveira.dev",
                 repository: `${GITHUB_URL}/portfolio`,
-                languages: ["TypeScript", "React", "TailwindCSS"]
+                languages: ["TypeScript", "NextJs", "TailwindCSS"]
             },
             {
                 name: "API Troco",
@@ -35,7 +36,17 @@ export default function Page() {
                 languages: ["JavaScript", "NodeJs", "Express", "Swagger"]
             },
             {
-                name: "Salon App (WIP)",
+                name: "Rosacleo",
+                description: {
+                    en: `This is a Mocked E-commerce Web App, built with Next.js, Typescript and Tailwind CSS. This Web App was made for a friend's high school project. The main goal of this project was to create a simple and responsive e-commerce website, with a focus on the user experience. The website has a product page, a cart page, and a checkout page, as well as a discount coupon.`,
+                    pt: `Este é um Web App de E-commerce fictício, construído com Next.js, Typescript e Tailwind CSS. Este Web App foi feito para um projeto de ensino médio de um amigo. O principal objetivo deste projeto era criar um site de e-commerce simples e responsivo, com foco na experiência do usuário. O site possui uma página de produto, uma página de carrinho e uma página de checkout, além de cupom de desconto.`
+                },
+                repository: `${GITHUB_URL}/rosacleo`,
+                preview: "https://rosacleo.vercel.app",
+                languages: ["TypeScript", "NextJs", "TailwindCSS"]
+            },
+            {
+                name: "Salon App API (WIP)",
                 description: {
                     pt: `Este é um projeto em andamento, onde estou desenvolvendo um web app para salões de beleza e barbearias. 
                     O objetivo desse projeto é ser um projeto white label, em que qualquer cliente possa customizar o app de acordo
@@ -49,7 +60,7 @@ export default function Page() {
                     of authentication and authorization.`
                 },
                 repository: `${GITHUB_URL}/salonApp-api`,
-                languages: ["TypeScript", "React", "NodeJs", "MongoDB"]
+                languages: ["TypeScript", "Express", "NodeJs", "MongoDB"]
             }
         ])
     }
