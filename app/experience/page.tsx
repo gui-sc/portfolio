@@ -23,10 +23,10 @@ export default function Page() {
                     en: "2023-10-01"
                 },
                 description: {
-                    pt: `Sou desenvolvedor de software na Regulatório Mais, onde trabalho com tecnologias como React,
+                    pt: `Sou desenvolvedor de software e Tech Lead na Regulatório Mais, onde trabalho com tecnologias como React,
                     Typescript, Express, utilizando AWS Cloud para deploy. O projeto consiste em um sistema de gestão de obrigações regulatórias para instituições financeiras,
                     incluindo funcionalidades como controle de prazos, notificações e geração de relatórios.`,
-                    en: `I work as a software developer at Regulatório Mais, where I work with technologies such as React,
+                    en: `I work as a software developer and Tech Lead at Regulatório Mais, where I work with technologies such as React,
                     Typescript, Express, using AWS Cloud for deployment. The project consists of a regulatory obligations management system for financial institutions,
                     including features such as deadline control, notifications, and report generation.`
                 }

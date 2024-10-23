@@ -14,14 +14,14 @@ export const MainPageMessages = {
         database connection to Google Firebase, which was completely new to me. It was also my first 
         experience learning a new language and studying the documentation. After graduating, I enrolled 
         in the Computer Science college at UNESC, where I am currently in the 6th semester. Today, 
-        I work as a developer at Regulatório Mais, where I work with technologies such as React, TypeScript, 
+        I work as Tech Lead at Regulatório Mais, where I work with technologies such as React, TypeScript, 
         Express, AWS Cloud, Lambda, Microservices, DynamoDB, and PostgreSQL. Here, you will see some of 
         my biggest and latest projects. I hope you enjoy them!`,
         pt: `Tenho 21 anos e nasci em Sombrio/SC. Comecei na área da programação quando tinha 15 anos,
             quando cursei o ensino médio integrado com curso técnico em informática, onde fiquei por três anos até me formar.
             Para passar no curso, desenvolvi um software mobile em Java com conexão a banco de dados no Google Firebase, que era algo completamente novo para mim, 
             foi também minha primeira experiência aprendendo uma nova linguagem e estudando a documentação. Após me formar, entrei na faculdade de Ciência da Computação na UNESC, onde estou atualmente no 6º semestre.
-            Hoje trabalho como desenvolvedor na Regulatório Mais, onde trabalho com tecnologias como React,
+            Hoje trabalho como desenvolvedor e tech lead na Regulatório Mais, onde trabalho com tecnologias como React,
             Typescript, Express, AWS Cloud, Lambda, Microsserviços, DynamoDB e PostgreSQL. Aqui você verá alguns dos meus maiores e mais recentes projetos,
             Espero que goste!`
     },
