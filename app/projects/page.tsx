@@ -23,6 +23,46 @@ export default function Page() {
                 languages: ["TypeScript", "NextJs", "TailwindCSS"]
             },
             {
+                name: "Rosacleo",
+                description: {
+                    en: `This is a Mocked E-commerce Web App, built with Next.js, Typescript and Tailwind CSS. This Web App was made for a friend's high school project. The main goal of this project was to create a simple and responsive e-commerce website, with a focus on the user experience. The website has a product page, a cart page, and a checkout page, as well as a discount coupon.`,
+                    pt: `Este é um Web App de E-commerce fictício, construído com Next.js, Typescript e Tailwind CSS. Este Web App foi feito para um projeto de ensino médio de um amigo. O principal objetivo deste projeto era criar um site de e-commerce simples e responsivo, com foco na experiência do usuário. O site possui uma página de produto, uma página de carrinho e uma página de checkout, além de cupom de desconto.`
+                },
+                repository: `${GITHUB_URL}/rosacleo`,
+                preview: "https://rosacleo.vercel.app",
+                languages: ["TypeScript", "NextJs", "TailwindCSS"]
+            },
+            {
+                name: "Fleet Manager API",
+                description: {
+                    en: `This is an api for managing fleets and travel applications, built with Express, Multer, Typescript and Google Cloud Storage. 
+                    This project is part of three projects that are part of the same system, the other two are the App and the Web App.
+                    This project was made for a college project in group, where the main goal was to create a system for managing fleets and travel applications,
+                    with a focus on development's best practices.`,
+                    pt: `Esta é uma api para gerenciamento de frotas e viagens, construída com Express, Multer, Typescript e Google Cloud Storage.
+                    Este projeto faz parte de três projetos que fazem parte do mesmo sistema, os outros dois são o App e o Web App.
+                    Este projeto foi feito para um projeto da faculdade em grupo, onde o principal objetivo era criar um sistema para gerenciamento de frotas e viagens,
+                    com foco nas melhores práticas de desenvolvimento.`
+                },
+                repository: `${GITHUB_URL}/api-gestao-frota`,
+                languages: ["TypeScript", "Express", "Multer", "Google Cloud"]
+            },
+            {
+                name: "Fleet Manager App",
+                description: {
+                    en: `This is an app for managing fleets and travel applications, built with React Native. 
+                    This project is part of three projects that are part of the same system, the other two are the API and the Web App.
+                    This project was made for a college project in group, where the main goal was to create a system for managing fleets and travel applications,
+                    with a focus on development's best practices.`,
+                    pt: `Este é um app para gerenciamento de frotas e viagens, construído com React Native.
+                    Este projeto faz parte de três projetos que fazem parte do mesmo sistema, os outros dois são a API e o Web App.
+                    Este projeto foi feito para um projeto da faculdade em grupo, onde o principal objetivo era criar um sistema para gerenciamento de frotas e viagens,
+                    com foco nas melhores práticas de desenvolvimento.`
+                },
+                repository: `${GITHUB_URL}/gestao-de-frota-app`,
+                languages: ["TypeScript", "React Native", "Google Maps API"]
+            },
+            {
                 name: "API Troco",
                 description: {
                     pt: `Este projeto foi feito durante uma aula, com o intuito de testar os conhecimentos em NodeJs, Express e também com funções recursivas. Ele utiliza
@@ -34,16 +74,6 @@ export default function Page() {
                 },
                 repository: `${GITHUB_URL}/api-troco`,
                 languages: ["JavaScript", "NodeJs", "Express", "Swagger"]
-            },
-            {
-                name: "Rosacleo",
-                description: {
-                    en: `This is a Mocked E-commerce Web App, built with Next.js, Typescript and Tailwind CSS. This Web App was made for a friend's high school project. The main goal of this project was to create a simple and responsive e-commerce website, with a focus on the user experience. The website has a product page, a cart page, and a checkout page, as well as a discount coupon.`,
-                    pt: `Este é um Web App de E-commerce fictício, construído com Next.js, Typescript e Tailwind CSS. Este Web App foi feito para um projeto de ensino médio de um amigo. O principal objetivo deste projeto era criar um site de e-commerce simples e responsivo, com foco na experiência do usuário. O site possui uma página de produto, uma página de carrinho e uma página de checkout, além de cupom de desconto.`
-                },
-                repository: `${GITHUB_URL}/rosacleo`,
-                preview: "https://rosacleo.vercel.app",
-                languages: ["TypeScript", "NextJs", "TailwindCSS"]
             },
             {
                 name: "Salon App API (WIP)",

@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Portfolio - Guilherme Silveira",
-  description: "Guilherme Silveira's portfolio.",
+  description: "Guilherme Silveira's portfolio",
+  keywords: "Guilherme Silveira, Portfolio, Developer, Fullstack, Frontend, Backend, Typescript, Express, AWS Cloud, Lambda, Microsserviços, DynamoDB, PostgreSQL",
 };
 
 export default function RootLayout({
